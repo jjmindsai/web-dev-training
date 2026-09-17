@@ -57,3 +57,44 @@ a {
 ul.done li {
   margin: 0.4em 0;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 480px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #243044;
+  border-radius: 8px;
+  background: #0b1220;
+  color: #d9d5e5;
+}
+
+button {
+  background: #5b8def;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+button:hover {
+  background: #7aa2f7;
+}
+
+.hidden {
+  display: none;
+}
