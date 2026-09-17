@@ -1,52 +1,90 @@
+:root {
+  --bg: #010712;
+  --text: #d9d5e5;
+  --heading: #5b8def;
+  --heading-2: #7aa2f7;
+  --link: #8ab4f8;
+  --nav-current: #ffffff;
+  --card-bg: #0b1220;
+  --card-border: #243044;
+  --accent: #5b8def;
+  --accent-hover: #7aa2f7;
+  --footer: #8b93a7;
+  --input-bg: #0b1220;
+}
+
+html.light {
+  --bg: #f3f6fb;
+  --text: #222222;
+  --heading: #0b57d0;
+  --heading-2: #174ea6;
+  --link: #0b57d0;
+  --nav-current: #0b57d0;
+  --card-bg: #ffffff;
+  --card-border: #d0d7de;
+  --accent: #0b57d0;
+  --accent-hover: #174ea6;
+  --footer: #5f6b7a;
+  --input-bg: #ffffff;
+}
+
 body {
   font-family: Arial, sans-serif;
   max-width: 760px;
   margin: 0 auto;
   padding: 24px 20px 64px;
   line-height: 1.5;
-  color: #d9d5e5;
-  background: #010712;
+  color: var(--text);
+  background: var(--bg);
 }
 
 nav {
   display: flex;
   gap: 20px;
+  align-items: center;
   margin-bottom: 36px;
   padding-bottom: 16px;
-  border-bottom: 1px solid #243044;
+  border-bottom: 1px solid var(--card-border);
 }
 
 nav a {
-  color: #8ab4f8;
+  color: var(--link);
   text-decoration: none;
 }
 
 nav a:hover,
 nav a.current {
-  color: #ffffff;
+  color: var(--nav-current);
   text-decoration: underline;
 }
 
+nav button {
+  margin-left: auto;
+  width: auto;
+  padding: 6px 12px;
+  font-size: 14px;
+}
+
 h1 {
-  color: #5b8def;
+  color: var(--heading);
   margin-bottom: 0.3em;
 }
 
 h2 {
-  color: #7aa2f7;
+  color: var(--heading-2);
   margin-top: 1.6em;
 }
 
 a {
-  color: #8ab4f8;
+  color: var(--link);
 }
 
 .card {
-  border: 1px solid #243044;
-  border-left: 4px solid #5b8def;
+  border: 1px solid var(--card-border);
+  border-left: 4px solid var(--accent);
   border-radius: 8px;
   padding: 16px 20px;
-  background: #0b1220;
+  background: var(--card-bg);
   margin: 16px 0;
 }
 
@@ -74,14 +112,14 @@ textarea {
   font-family: Arial, sans-serif;
   font-size: 16px;
   padding: 10px;
-  border: 1px solid #243044;
+  border: 1px solid var(--card-border);
   border-radius: 8px;
-  background: #0b1220;
-  color: #d9d5e5;
+  background: var(--input-bg);
+  color: var(--text);
 }
 
 button {
-  background: #5b8def;
+  background: var(--accent);
   color: #ffffff;
   border: none;
   border-radius: 8px;
@@ -92,7 +130,7 @@ button {
 }
 
 button:hover {
-  background: #7aa2f7;
+  background: var(--accent-hover);
 }
 
 .hidden {
@@ -102,9 +140,9 @@ button:hover {
 footer {
   margin-top: 48px;
   padding-top: 16px;
-  border-top: 1px solid #243044;
+  border-top: 1px solid var(--card-border);
   font-size: 14px;
-  color: #8b93a7;
+  color: var(--footer);
 }
 
 @media (max-width: 600px) {
@@ -117,6 +155,10 @@ footer {
     gap: 12px 16px;
   }
 
+  nav button {
+    margin-left: 0;
+  }
+
   form {
     max-width: 100%;
   }
@@ -125,5 +167,9 @@ footer {
   textarea,
   button {
     width: 100%;
+  }
+
+  nav button {
+    width: auto;
   }
 }
