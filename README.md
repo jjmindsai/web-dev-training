@@ -7,3 +7,6 @@ Practice work while learning HTML, CSS, JavaScript, Node.js, npm, Python, Expres
 - `03-python` — Python and Flask
 - `04-fullstack` — frontend button talking to a Flask API
 - `05-personal-site` — home, training progress, and projects
+- `docs` — same site, published by GitHub Pages
+
+Live site (after Pages is on): https://jjmindsai.github.io/web-dev-training/
