@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Johny — Inbox (Express)</title>
+    <link rel="stylesheet" href="/styles.css?v=3" />
+  </head>
+  <body>
+    <nav>
+      <a href="/index.html">Home</a>
+      <a href="/contact.html">Contact</a>
+      <a href="/inbox" class="current">Inbox</a>
+      <a href="/logout">Log out</a>
+    </nav>
+
+    <h1>Inbox (Express + SQLite)</h1>
+    <p>Same pages as Flask. This server is Node on port 5001.</p>
+
+    <% if (messages.length) { %>
+      <% messages.forEach(function (item) { %>
+        <div class="card">
+          <h2><%= item.name %></h2>
+          <p><%= item.email %></p>
+          <p><%= item.message %></p>
+          <p><a href="/inbox/edit/<%= item.id %>">Edit</a></p>
+          <form method="post" action="/inbox/delete/<%= item.id %>">
+            <button type="submit">Delete</button>
+          </form>
+        </div>
+      <% }); %>
+    <% } else { %>
+      <p>No messages yet. Submit the contact form first.</p>
+    <% } %>
+
+    <footer>
+      <p>Local only — Express on port 5001.</p>
+    </footer>
+  </body>
+</html>

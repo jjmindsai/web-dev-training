@@ -8,5 +8,7 @@ Practice work while learning HTML, CSS, JavaScript, Node.js, npm, Python, Expres
 - `04-fullstack` — frontend button talking to a Flask API
 - `05-personal-site` — home, training progress, and projects
 - `docs` — same site, published by GitHub Pages
+- `06-contact-backend` — Flask + SQLite inbox (local, port 5000)
+- `07-express-backend` — Express + SQLite inbox (local, port 5001)
 
-Live site (after Pages is on): https://jjmindsai.github.io/web-dev-training/
+Live site: https://jjmindsai.github.io/web-dev-training/

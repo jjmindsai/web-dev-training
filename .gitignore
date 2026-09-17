@@ -3,3 +3,7 @@ __pycache__/
 *.pyc
 .venv/
 .env
+06-contact-backend/messages.json
+06-contact-backend/messages.db
+07-express-backend/node_modules/
+07-express-backend/messages.db

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Johny — Edit (Express)</title>
+    <link rel="stylesheet" href="/styles.css?v=3" />
+  </head>
+  <body>
+    <nav>
+      <a href="/index.html">Home</a>
+      <a href="/contact.html">Contact</a>
+      <a href="/inbox">Inbox</a>
+    </nav>
+
+    <h1>Edit message (Express)</h1>
+
+    <form method="post" action="/inbox/edit/<%= item.id %>">
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" value="<%= item.name %>" required />
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" value="<%= item.email %>" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required><%= item.message %></textarea>
+
+      <button type="submit">Save</button>
+    </form>
+
+    <p><a href="/inbox">Cancel</a></p>
+  </body>
+</html>
