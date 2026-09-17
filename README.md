@@ -6,3 +6,4 @@ Practice work while learning HTML, CSS, JavaScript, Node.js, npm, Python, Expres
 - `02-nodejs` — Node, npm, Express
 - `03-python` — Python and Flask
 - `04-fullstack` — frontend button talking to a Flask API
+- `05-personal-site` — home, training progress, and projects
