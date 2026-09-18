@@ -6,7 +6,7 @@
     <title>Johny — Training</title>
     <meta name="description" content="Lessons Johny has completed in web development." />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css?v=8" />
+    <link rel="stylesheet" href="styles.css?v=9" />
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
@@ -21,23 +21,38 @@
 
     <main id="main">
     <h1>Training progress</h1>
-    <p>Lessons completed in this course.</p>
+    <p>Lessons completed in this course. Click a heading to open or close a group.</p>
 
-    <ul class="done">
-      <li>HTML — page structure</li>
-      <li>CSS — colors, files, hover</li>
-      <li>JavaScript in the browser — click a button</li>
-      <li>Node.js + npm</li>
-      <li>HTTP server + Express routes</li>
-      <li>Python + Flask</li>
-      <li>Frontend fetch talking to a Flask API</li>
-      <li>Git + GitHub</li>
-      <li>GitHub Pages — site on the internet</li>
-      <li>Contact form</li>
-      <li>Mobile layout and footer</li>
-      <li>Flask inbox — CRUD, login, SQLite</li>
-      <li>Express inbox — same app in Node</li>
-    </ul>
+    <details open>
+      <summary>Frontend</summary>
+      <ul class="done">
+        <li>HTML — page structure</li>
+        <li>CSS — colors, files, hover</li>
+        <li>JavaScript in the browser — click a button</li>
+        <li>Contact form, theme, filter, print styles</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>Backend</summary>
+      <ul class="done">
+        <li>Node.js + npm</li>
+        <li>HTTP server + Express routes</li>
+        <li>Python + Flask</li>
+        <li>Frontend fetch talking to a Flask API</li>
+        <li>Flask inbox — CRUD, login, SQLite</li>
+        <li>Express inbox — same app in Node</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>Shipping</summary>
+      <ul class="done">
+        <li>Git + GitHub</li>
+        <li>GitHub Pages — site on the internet</li>
+        <li>Favicon, 404, Open Graph</li>
+      </ul>
+    </details>
 
     <h2>Next</h2>
     <p>Keep building the portfolio. The beginner track is complete.</p>

@@ -114,6 +114,20 @@ time {
   font-size: 14px;
 }
 
+details {
+  margin: 12px 0;
+  padding: 12px 16px;
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+  background: var(--card-bg);
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: var(--heading-2);
+}
+
 ul.done li {
   margin: 0.4em 0;
 }
