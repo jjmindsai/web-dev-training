@@ -110,6 +110,13 @@ caption {
   color: var(--heading-2);
 }
 
+blockquote {
+  margin: 16px 0;
+  padding: 8px 16px;
+  border-left: 4px solid var(--accent);
+  color: var(--footer);
+}
+
 th,
 td {
   border: 1px solid var(--card-border);
