@@ -1,5 +1,7 @@
 # Johny's web development training
 
+Full class map (for a new Grok chat): [COURSE.md](COURSE.md)
+
 Practice work while learning HTML, CSS, JavaScript, Node.js, npm, Python, Express, and Flask.
 
 - `01-html-css` — first About Me page
