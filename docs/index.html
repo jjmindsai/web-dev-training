@@ -53,7 +53,7 @@
       href="https://jjmindsai.github.io/web-dev-training/"
     />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css?v=18" />
+    <link rel="stylesheet" href="styles.css?v=19" />
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
@@ -111,8 +111,14 @@
 
     <p>
       <button type="button" id="copy-url">Copy page URL</button>
+      <button type="button" id="open-dialog">About this site</button>
     </p>
     <p id="copy-status" class="hidden">Copied this page's address.</p>
+
+    <dialog id="about-dialog">
+      <p>This is Johny's public training site. Backend inbox apps stay on the local PC.</p>
+      <button type="button" id="close-dialog">Close</button>
+    </dialog>
 
     <table>
       <caption>Skills on this site</caption>
@@ -152,5 +158,6 @@
     <script src="to-top.js"></script>
     <script src="year.js"></script>
     <script src="copy-url.js"></script>
+    <script src="dialog.js"></script>
   </body>
 </html>

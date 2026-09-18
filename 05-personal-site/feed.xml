@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Johny's training blog</title>
+    <link>https://jjmindsai.github.io/web-dev-training/blog.html</link>
+    <description>Short notes from web development training.</description>
+    <item>
+      <title>More advanced training</title>
+      <link>https://jjmindsai.github.io/web-dev-training/blog.html</link>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Moving along to more advanced topics in web development, HTML, CSS, and JavaScript.</description>
+    </item>
+    <item>
+      <title>I put a website on the internet</title>
+      <link>https://jjmindsai.github.io/web-dev-training/blog.html</link>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Started with HTML and CSS, then JavaScript, Node, Python, Flask, and GitHub Pages.</description>
+    </item>
+  </channel>
+</rss>
