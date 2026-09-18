@@ -189,6 +189,11 @@ dd {
   color: var(--footer);
 }
 
+abbr {
+  text-decoration: underline dotted;
+  cursor: help;
+}
+
 ul.done li {
   margin: 0.4em 0;
 }
