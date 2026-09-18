@@ -179,6 +179,16 @@ summary {
   color: var(--heading-2);
 }
 
+dt {
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+dd {
+  margin-left: 16px;
+  color: var(--footer);
+}
+
 ul.done li {
   margin: 0.4em 0;
 }
