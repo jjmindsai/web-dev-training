@@ -173,6 +173,14 @@ button:hover {
   display: none;
 }
 
+#to-top {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 5;
+  width: auto;
+}
+
 .skip {
   position: absolute;
   left: -999px;
@@ -209,6 +217,7 @@ footer {
   .skip,
   footer,
   #theme-btn,
+  #to-top,
   img.hero {
     display: none;
   }
