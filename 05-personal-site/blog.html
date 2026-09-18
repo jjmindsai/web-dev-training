@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Johny — Blog</title>
+    <meta
+      name="description"
+      content="Notes from Johny's web development training."
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css?v=7" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="progress.html">Training</a>
+      <a href="projects.html">Projects</a>
+      <a href="blog.html" class="current">Blog</a>
+      <a href="contact.html">Contact</a>
+      <button type="button" id="theme-btn">Light</button>
+    </nav>
+
+    <main id="main">
+      <h1>Blog</h1>
+      <p>Short notes from training. Newest first.</p>
+
+      <article class="card">
+        <h2>I put a website on the internet</h2>
+        <p><time datetime="2026-09-17">17 September 2026</time></p>
+        <p>
+          I started out learning HTML and CSS, then moved on to JavaScript, Node, npm, Python, and Flask. I saved my projects on GitHub and used GitHub Pages to publish the website.
+        </p>
+        <p>
+          The live website is a static site built with HTML, CSS, and JavaScript. For contact forms and other backend features, I use Flask or Express with SQLite on my local PC. The backend runs locally and is not part of the public website.
+        </p>
+        <p>
+          Live site:
+          <a href="https://jjmindsai.github.io/web-dev-training/index.html"
+            >jjmindsai.github.io/web-dev-training</a
+          >.
+        </p>
+      </article>
+    </main>
+
+    <footer>
+      <p>© 2026 Johny · <a href="https://github.com/jjmindsai" target="_blank">GitHub</a></p>
+    </footer>
+    <script src="theme.js"></script>
+  </body>
+</html>

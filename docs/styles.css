@@ -109,6 +109,11 @@ a {
   margin-top: 0;
 }
 
+time {
+  color: var(--footer);
+  font-size: 14px;
+}
+
 ul.done li {
   margin: 0.4em 0;
 }
