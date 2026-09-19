@@ -2,9 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://jjmindsai.github.io/web-dev-training/</loc>
+    <lastmod>2026-09-18</lastmod>
   </url>
   <url>
     <loc>https://jjmindsai.github.io/web-dev-training/index.html</loc>
+    <lastmod>2026-09-18</lastmod>
   </url>
   <url>
     <loc>https://jjmindsai.github.io/web-dev-training/progress.html</loc>
@@ -14,6 +16,7 @@
   </url>
   <url>
     <loc>https://jjmindsai.github.io/web-dev-training/blog.html</loc>
+    <lastmod>2026-09-18</lastmod>
   </url>
   <url>
     <loc>https://jjmindsai.github.io/web-dev-training/contact.html</loc>

@@ -6,7 +6,7 @@
 
 Paste this into a new Grok chat:
 
-> I am Johny. Continue my web-dev training from COURSE.md in C:\Users\jjminds\web-dev-training (also https://github.com/jjmindsai/web-dev-training/blob/main/COURSE.md). Live site: https://jjmindsai.github.io/web-dev-training/index.html. Next unused lesson idea: RSS/sitemap update when a blog post is added. Do not reinstall tools. Edit 05-personal-site then copy to docs and git push for GitHub Pages.
+> I am Johny. Continue my web-dev training from COURSE.md in C:\Users\jjminds\web-dev-training (also https://github.com/jjmindsai/web-dev-training/blob/main/COURSE.md). Live site: https://jjmindsai.github.io/web-dev-training/index.html. Next unused lesson idea: contact form autocomplete, aria-label on Top, or meta theme-color. Do not reinstall tools. Edit 05-personal-site then copy to docs and git push for GitHub Pages.
 
 ---
 
@@ -62,7 +62,7 @@ Class inbox password (localhost only, already in source): `johny-inbox` — not 
 
 ---
 
-## Lessons completed (1–55)
+## Lessons completed (1–56)
 
 ### Setup
 Install VS Code, Node, Python, Git. GitHub in VS Code. No extra languages needed on LTSC.
@@ -110,6 +110,7 @@ Install VS Code, Node, Python, Git. GitHub in VS Code. No extra languages needed
 36. JSON-LD Person + `rel="noopener noreferrer"`  
 41. `rel="canonical"` (Home = `.../web-dev-training/`)  
 51. `feed.xml` RSS  
+56. Third blog post **Small HTML details**; update `feed.xml` + sitemap `lastmod` + Home teaser; `rel="alternate"` RSS in Home/Blog head  
 
 **Student habits learned:** PowerShell prompt is not a command; `cd` before `node`; don’t paste Python into PS; duplicate CSS = last rule wins; contrast/inheritance; cache (**Ctrl+F5**); AdGuard scripts in View source are not in the file.
 
@@ -126,7 +127,11 @@ Home images: `favicon.svg` (logo) + `og-image.jpg` (hero).
 
 ## Suggested next lessons (not done)
 
-- A tiny RSS/sitemap update whenever a new blog post is added (manual static habit)
+- Contact form `autocomplete` (`name`, `email`)  
+- `aria-label` on the Top button  
+- `meta name="theme-color"`  
+- `<cite>` on the blog quote  
+- CSS `color-scheme` so form controls match light/dark
 
 ---
 
