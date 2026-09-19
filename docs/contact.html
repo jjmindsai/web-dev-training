@@ -30,15 +30,15 @@
       Submit shows a thank-you message on the page.
     </p>
 
-    <form id="contact-form">
+    <form id="contact-form" autocomplete="on">
       <label for="name">Name</label>
-      <input id="name" name="name" type="text" required />
+      <input id="name" name="name" type="text" required autocomplete="name" />
 
       <label for="email">Email</label>
-      <input id="email" name="email" type="email" required />
+      <input id="email" name="email" type="email" required autocomplete="email" />
 
       <label for="message">Message</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
+      <textarea id="message" name="message" rows="5" required autocomplete="off"></textarea>
 
       <button type="submit">Send</button>
     </form>
