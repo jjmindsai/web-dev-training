@@ -28,6 +28,10 @@ html.light {
   --input-bg: #ffffff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Arial, sans-serif;
   max-width: 760px;
@@ -338,6 +342,12 @@ footer {
     border: 1px solid #000000;
     background: #ffffff;
     break-inside: avoid;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
   }
 }
 

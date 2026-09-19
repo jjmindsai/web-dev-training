@@ -9,5 +9,13 @@ window.addEventListener("scroll", function () {
 });
 
 toTop.addEventListener("click", function () {
-  window.scrollTo({ top: 0, behavior: "smooth" });
+  const prefersLessMotion = window.matchMedia(
+    "(prefers-reduced-motion: reduce)"
+  ).matches;
+
+  if (prefersLessMotion) {
+    window.scrollTo(0, 0);
+  } else {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
 });
