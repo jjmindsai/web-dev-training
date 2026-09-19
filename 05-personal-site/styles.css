@@ -311,6 +311,16 @@ footer {
   color: var(--footer);
 }
 
+footer p {
+  display: inline;
+  margin: 0;
+}
+
+footer address {
+  display: inline;
+  font-style: normal;
+}
+
 @media print {
   nav,
   .skip,
