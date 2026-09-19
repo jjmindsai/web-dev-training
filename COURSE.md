@@ -6,7 +6,7 @@
 
 Paste this into a new Grok chat:
 
-> I am Johny. Continue my web-dev training from COURSE.md in C:\Users\jjminds\web-dev-training (also https://github.com/jjmindsai/web-dev-training/blob/main/COURSE.md). Live site: https://jjmindsai.github.io/web-dev-training/index.html. Next unused lesson idea: loading=lazy, HTML address in the footer, or HTML small. Do not reinstall tools. Edit 05-personal-site then copy to docs and git push for GitHub Pages.
+> I am Johny. Continue my web-dev training from COURSE.md in C:\Users\jjminds\web-dev-training (also https://github.com/jjmindsai/web-dev-training/blob/main/COURSE.md). Live site: https://jjmindsai.github.io/web-dev-training/index.html. Next unused lesson idea: HTML address in the footer, HTML small, or RSS/sitemap update when a post is added. Do not reinstall tools. Edit 05-personal-site then copy to docs and git push for GitHub Pages.
 
 ---
 
@@ -62,7 +62,7 @@ Class inbox password (localhost only, already in source): `johny-inbox` — not 
 
 ---
 
-## Lessons completed (1–52)
+## Lessons completed (1–53)
 
 ### Setup
 Install VS Code, Node, Python, Git. GitHub in VS Code. No extra languages needed on LTSC.
@@ -88,6 +88,7 @@ Install VS Code, Node, Python, Git. GitHub in VS Code. No extra languages needed
 49. Copy URL (`navigator.clipboard` + `location.href`)  
 50. `<dialog>` + `showModal()` (“About this site”)  
 52. `prefers-reduced-motion` (CSS `scroll-behavior` + `matchMedia` on Top)  
+53. `loading="lazy"` on the Home banner (`width`/`height` too; logo stays eager)  
 
 ### Backend
 4–5. `node hello.js` (cwd vs path), `npm init`, `cowsay`  
@@ -123,7 +124,6 @@ Home images: `favicon.svg` (logo) + `og-image.jpg` (hero).
 
 ## Suggested next lessons (not done)
 
-- `loading="lazy"` on images  
 - Semantic `<address>` in the footer  
 - HTML `<small>` / fine print  
 - A tiny RSS/sitemap update whenever a new blog post is added (manual static habit)
